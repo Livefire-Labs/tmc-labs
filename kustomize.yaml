@@ -1,0 +1,14 @@
+namespace: avi-system
+
+# make sure namespace exists
+resources:
+- namespace.yaml
+
+# AVI AKO helm chart
+helmChartInflationGenerator:
+- chartName: ako
+  chartRepoUrl: https://projects.registry.vmware.com/chartrepo/ako
+  chartVersion: 1.6.1
+  releaseName: ako
+  releaseNamespace: avi-system
+  values: ako-values.yaml
