@@ -8,7 +8,7 @@ spec:
   dependsOn:
     - name: tanzu-packages-cert-manager
   interval: 5m0s
-  path: ./fluent-bit
+  path: ./continuous-delivery/opa/fluent-bit
   prune: true
   sourceRef:
     kind: GitRepository
