@@ -8,7 +8,7 @@ spec:
   dependsOn:
     - name: tanzu-packages-cert-manager
   interval: 5m0s
-  path: ./03-packages/contour
+  path: ./continuous-delivery/psp/contour
   prune: true
   sourceRef:
     kind: GitRepository
