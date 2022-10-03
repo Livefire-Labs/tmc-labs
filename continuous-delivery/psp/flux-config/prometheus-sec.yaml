@@ -7,7 +7,7 @@ spec:
   dependsOn:
     - name: tanzu-packages-contour
   interval: 5m0s
-  path: ./03-packages/prometheus-psp
+  path: ./continuous-delivery/psp/prometheus-psp
   prune: true
   sourceRef:
     kind: GitRepository
