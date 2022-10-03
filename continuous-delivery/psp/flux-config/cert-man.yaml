@@ -8,7 +8,7 @@ spec:
   #dependsOn:
     #- name: packages-ns-sa.yaml
   interval: 5m0s
-  path: ./03-packages/cert-manager
+  path: ./continuous-delivery/psp/cert-manager
   prune: true
   sourceRef:
     kind: GitRepository
