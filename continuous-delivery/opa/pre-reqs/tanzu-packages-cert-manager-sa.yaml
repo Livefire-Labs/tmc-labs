@@ -8,7 +8,7 @@ spec:
   dependsOn:
     - name: tanzu-packages-namespaces
   interval: 5m0s
-  path: ./service-accounts/cert-manager-sa
+  path: ./continuous-delivery/opa/service-accounts/cert-manager-sa
   prune: true
   sourceRef:
     kind: GitRepository
