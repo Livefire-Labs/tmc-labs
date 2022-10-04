@@ -8,7 +8,7 @@ spec:
   dependsOn:
     - name: tanzu-packages-contour
   interval: 5m0s
-  path: ./harbor
+  path: ./continuous-delivery/opa/harbor
   prune: true
   sourceRef:
     kind: GitRepository
