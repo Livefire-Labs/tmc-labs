@@ -8,7 +8,7 @@ spec:
   dependsOn:
     - name: tanzu-packages-namespaces
   interval: 5m0s
-  path: ./service-accounts/harbor-sa
+  path: ./continuous-delivery/opa/service-accounts/harbor-sa
   prune: true
   sourceRef:
     kind: GitRepository
