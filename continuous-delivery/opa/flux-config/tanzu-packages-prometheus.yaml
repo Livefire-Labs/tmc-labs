@@ -8,7 +8,7 @@ spec:
   dependsOn:
     - name: tanzu-packages-contour
   interval: 1m0s
-  path: ./prometheus
+  path: ./continuous-delivery/opa/prometheus
   prune: true
   sourceRef:
     kind: GitRepository
