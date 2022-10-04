@@ -8,7 +8,7 @@ spec:
   dependsOn:
     - name: tanzu-packages-namespaces
   interval: 4m0s
-  path: ./service-accounts/grafana-sa
+  path: ./continuous-delivery/opaservice-accounts/grafana-sa
   prune: true
   sourceRef:
     kind: GitRepository
