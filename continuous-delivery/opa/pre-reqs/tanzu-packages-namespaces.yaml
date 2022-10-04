@@ -6,7 +6,7 @@ metadata:
   namespace: tanzu-continuousdelivery-resources
 spec:
   interval: 5m0s
-  path: ./namespaces
+  path: ./continuous-delivery/opa/namespaces
   prune: true
   sourceRef:
     kind: GitRepository
