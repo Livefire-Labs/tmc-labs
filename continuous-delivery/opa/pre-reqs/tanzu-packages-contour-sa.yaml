@@ -8,7 +8,7 @@ spec:
   dependsOn:
     - name: tanzu-packages-namespaces
   interval: 5m0s
-  path: ./continuous-delivery/opaservice-accounts/contour-sa
+  path: ./continuous-delivery/opa/service-accounts/contour-sa
   prune: true
   sourceRef:
     kind: GitRepository
