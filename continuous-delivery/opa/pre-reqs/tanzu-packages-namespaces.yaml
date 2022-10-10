@@ -10,7 +10,7 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: fluxcd-poc
+    name: livefire-tmc
     namespace: tanzu-continuousdelivery-resources
 
 
